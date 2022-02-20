@@ -1,10 +1,9 @@
 from collections import defaultdict
 result=defaultdict(int)
 x=1000000
-kranke=1000
-tage=1
 def zyklen(z):    
-    global kranke, tage
+    kranke=1000
+    tage=1
     while kranke<x:
         kranke*=2
         tage+=z
